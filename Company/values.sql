@@ -1,4 +1,5 @@
 
+
 Main manager 1001 |  Office One 1010 | Office Two 1020 | Office Three 1030
 Main HR 1008      |  Office One 1011 | Office Two 1021 | Office Three 1031
 Main CPA 1009     |  Office One 1013 | Office Two 1022 | Office Three 1032
@@ -33,7 +34,8 @@ INSERT INTO
  (1018,'Michele',null,'Kyllonen','seller',3000,'2007-01-11','4 Railroad Ave.','Howell','New Jersey','1985-03-10','F',831658900,'michelekyllonen@email.com',1010,1),
  (1019,'Nannie',null,'Bultman','seller',3000,'2007-01-11','635 Branch Drive','Dorchester','Massachusetts ','1983-10-15','F',929148136,'nanniebultman@email.com',1010,1);
 
-INSERT INTO `employees`(`employee_id`, `first_name`, `midle_name`, `last_name`, `position`, `salary`, `start_date`, `address`, `city`, `state`, `birthday`, `sex`, `phone`, `email`, `supervisor_id`, `office_id`) 
+INSERT INTO 
+`employees`(`employee_id`, `first_name`, `midle_name`, `last_name`, `position`, `salary`, `start_date`, `address`, `city`, `state`, `birthday`, `sex`, `phone`, `email`, `supervisor_id`, `office_id`) 
 VALUES 
 (1020,'Regena','Rea','Rafter','manger',4500,'2007-02-21','12 S. Edgewood Court','Rockford','Michigan','1976-11-05','F',673261070,'rearafter@email.com',1001,2),
 (1021,'Lyle',null,'Pavia','HR',4000,'2007-02-21','607 Gates Lane','Birmingham','Alabama','1979-09-21','M',794297018,'lylepavia@email.com',1008,2),
@@ -46,7 +48,8 @@ VALUES
 (1028,'Angelica',null,'Kail','seller',3200,'2007-05-10','7159 James Road','Hyattsville','Michigan','1984-09-13','F',750868852,'angelicakail@email.com',1020,2),
 (1029,'Buster','Jack','Ferreri','seller',3200,'2007-07-15','35 Ryan Dr.','Apple Valley','California','1986-01-19','M',519874150,'busterferreri@email.com',1020,2);
 
-INSERT INTO `employees`(`employee_id`, `first_name`, `midle_name`, `last_name`, `position`, `salary`, `start_date`, `address`, `city`, `state`, `birthday`, `sex`, `phone`, `email`, `supervisor_id`, `office_id`) 
+INSERT INTO 
+`employees`(`employee_id`, `first_name`, `midle_name`, `last_name`, `position`, `salary`, `start_date`, `address`, `city`, `state`, `birthday`, `sex`, `phone`, `email`, `supervisor_id`, `office_id`) 
 VALUES
 (1030, 'Jenny', 'H.', 'McCormick', 'manager', 4300, '2008-12-21', '53 Lee Avenue', 'Maple Shade', 'New York', '1983-11-01', 'F', 563053689, 'jennymc@email.com', 1001, 3),
 (1031,'Johnny',null,'Gonzalez','HR',3900,'2008-12-21','7130 Orchard Road','District Heights','Maryland','1984-12-05','M',549876324,'johnnygonzalez@email.com',1008,3),
