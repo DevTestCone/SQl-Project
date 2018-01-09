@@ -69,3 +69,14 @@ INSERT INTO
 (3,'Company Office Three','7058 Charles Street','Reynoldsburg','Ohio','OH-3579-12',914826,159848632,800300300,'officethree@email.com',null,'2008-12-21'),
 (4,'Company Office Four','87 Lexington Drive','Port Charlotte','Florida','FL-4911-42',361844,173981627,800200200,'officefour@email.com',null,'2009-02-21'),
 (5,'Company Office Five','905 Purple Finch Dr.','Pittsford','New York','NY-9873-33',554379,174835219,800100100,'officefive@email.com',null,'2009-9-01');
+
+*****************CLIENTS*******************************
+
+INSERT INTO
+`clients`(`client_id`, `client_name`, `client_address`, `client_city`, `client_state`, `vat_number`, `registration_number`, `phone`, `email`, `office_id`) 
+VALUES 
+(100,'Feidlimid Co.','295 Brook Drive','Kissimmee','Florida','FL-487-88',154786,184672981,'feidlimid@email.com',null),
+(101,'Cynwrig Technology','9823 Greenview Road ','North Brunswick','New York','NY-764-94',671846,521466894,'cynwrigtechnology@email.com',null),
+(102,'Caratacos Co.','867 Green Street ','Alabaster','Alabama','AL-761-55',671834,159764832,'caratacos@email.com',null),
+(103,'Iudicael Cable Co.','662 Nut Swamp Avenue','Toms River','New York','NY-768-47',874618,957613485,'iudicaelcable@email.com',null),
+(104,'Cynbel Hardware','559 53rd St.','Providence','Rhode Island','RI-684-35',671328,136284319,'cynbelhardware',null);
