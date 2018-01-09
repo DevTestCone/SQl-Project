@@ -1,6 +1,7 @@
-Main manager 1001 |  Office One 1010 | Office Two 1020
-Main HR 1008      |  Office One 1011 | Office Two 1021
-Main CPA 1009     |  Office One 1013 | Office Two 1022
+
+Main manager 1001 |  Office One 1010 | Office Two 1020 | Office Three 1030
+Main HR 1008      |  Office One 1011 | Office Two 1021 | Office Three 1031
+Main CPA 1009     |  Office One 1013 | Office Two 1022 | Office Three 1032
  
  ******************EMPLOYEES**************************
  
@@ -44,6 +45,19 @@ VALUES
 (1027,'Jacelyn','Dan','Stocker','seller',3200,'2007-05-10','67 South Orchard Road','Austin','Michigan','1986-02-20','F',678648429,'danstocker@email.com',1020,2),
 (1028,'Angelica',null,'Kail','seller',3200,'2007-05-10','7159 James Road','Hyattsville','Michigan','1984-09-13','F',750868852,'angelicakail@email.com',1020,2),
 (1029,'Buster','Jack','Ferreri','seller',3200,'2007-07-15','35 Ryan Dr.','Apple Valley','California','1986-01-19','M',519874150,'busterferreri@email.com',1020,2);
+
+INSERT INTO `employees`(`employee_id`, `first_name`, `midle_name`, `last_name`, `position`, `salary`, `start_date`, `address`, `city`, `state`, `birthday`, `sex`, `phone`, `email`, `supervisor_id`, `office_id`) 
+VALUES
+(1030, 'Jenny', 'H.', 'McCormick', 'manager', 4300, '2008-12-21', '53 Lee Avenue', 'Maple Shade', 'New York', '1983-11-01', 'F', 563053689, 'jennymc@email.com', 1001, 3),
+(1031,'Johnny',null,'Gonzalez','HR',3900,'2008-12-21','7130 Orchard Road','District Heights','Maryland','1984-12-05','M',549876324,'johnnygonzalez@email.com',1008,3),
+(1032,'James',null,'Bailey','CPA',3500,'2008-12-21','9 High Ridge Avenue','Westmont','Illinois','1985-04-13','M',751485432,'jamesbailey@email.com',1009,3),
+(1033,'Alice','An','Wilson','secretary',3300,'2008-12-21','334 Ridge Ave.','Des Plaines','Illinois','1989-06-22','F',976142831,'alicewilson@email.com',1030,3),
+(1034,'Brandon','F.','Morris','seller',2900,'2008-12-21','665 Trenton Court','Oakland','California','1985-03-30','M',774692819,'brandonmorris@email.com',1030, 3),
+(1035,'Rebecca',null,'Evans','seller',2900,'2008-12-21','75 Tailwater Lane','Wilmette','Illinois','1988-12-15','F',764182468,'rebeccaevans@email.com',1030,3),
+(1036,'Deborah','M.','Flores','seller',2900,'2008-12-21','386 High Dr.','Camas','Washington','1979-08-19','F',195746892,'deborahflores@email.com',1030,3),
+(1037,'Shirley',null,'Turner','seller',2900,'2008-12-21','81 Ivy Drive','Addison','Illinois','1984-05-26','F',678428619,'shirleyturner@email.com',1030,3),
+(1038,'Kathleen','K.','King','seller',2900,'2009-02-21','9614 Bear Hill St.','Wasilla','Alaska','1986-05-16','F',681435791,'kathleenking@email.com',1030,3),
+(1039,'Christine','J.','Martin','seller',2900,'2009-02-21','98 Tanglewood Rd.','Sulphur','Los Angeles','1986-07-17','F',614578926,'christinemartin@email.com',1030,3);
 
 *****************OFFICES************************
 
