@@ -21,7 +21,8 @@ Main CPA 1009     |  Office One 1013 | Office Two 1022 | Office Three 1032
  (1009,'Chris',null,'Macfarland','CPA',4000,'2004-11-18','834 Amherst Road','Allison Park','Pennsylvania','1970-10-15','M',801513081,'chrismacfarland@email.com',1000,null);
 
 INSERT INTO
- `employees`(`employee_id`,`first_name`, `midle_name`, `last_name`, `position`, `salary`, `start_date`, `address`, `city`, `state`, `birthday`, `sex`, `phone`, `email`, `supervisor_id`, `office_id`) 
+
+`employees`(`employee_id`,`first_name`, `midle_name`, `last_name`, `position`, `salary`, `start_date`, `address`, `city`, `state`, `birthday`, `sex`, `phone`, `email`, `supervisor_id`, `office_id`) 
  VALUES 
  (1010,'Eneida','En','Consiglio','manger',4500,'2005-11-21','51 Ridgeview Court','Hicksville','New York ','1966-06-15' ,'F' ,800806178,'enconsiglio@email.com',1001,1),
  (1011,'Lorinda',null,'Dunneback','HR',4000,'2005-11-21','496 Lakeview Ave.','Elkridge','Michigan','1970-11-21','F',722622294,'lorindadunneback@email.com',1008,1),
@@ -83,3 +84,12 @@ VALUES
 (102,'Caratacos Co.','867 Green Street ','Alabaster','Alabama','AL-761-55',671834,159764832,'caratacos@email.com',null),
 (103,'Iudicael Cable Co.','662 Nut Swamp Avenue','Toms River','New York','NY-768-47',874618,957613485,'iudicaelcable@email.com',null),
 (104,'Cynbel Hardware','559 53rd St.','Providence','Rhode Island','RI-684-35',671328,136284319,'cynbelhardware',null);
+
+INSERT INTO	
+`clients`(`client_id`, `client_name`, `client_address`, `client_city`, `client_state`, `vat_number`, `registration_number`, `phone`, `email`, `office_id`) 
+VALUES
+(105,'Sif Technology','123 6th St.','Melbourne','Florida','FL-364-78',361794,153246859,'siftechnology@email.com',1),
+(106,'Gunnarr Co.','71 Pilgrim Avenue','Chevy Chase','Maryland','MA-671-28',316485,351284679,'gunnarr@email.com',1),
+(107,'Vidar Cable','70 Bowman St.','South Windsor','Connecticut','CA-617-23',361754,315284379,'vidarcable@email.com',1),
+(108,'Huld Co.','4 Goldfield Rd.','Honolulu','Hawaii','HA-814-55',541867,974186245,'huld@email.com',1),
+(109,'Askr Co.','44 Shirley Ave.','West Chicago','Illinois','IL-947-85',251384,325146785,'askr@email.com',1);
