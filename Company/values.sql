@@ -93,3 +93,8 @@ VALUES
 (107,'Vidar Cable','70 Bowman St.','South Windsor','Connecticut','CA-617-23',361754,315284379,'vidarcable@email.com',1),
 (108,'Huld Co.','4 Goldfield Rd.','Honolulu','Hawaii','HA-814-55',541867,974186245,'huld@email.com',1),
 (109,'Askr Co.','44 Shirley Ave.','West Chicago','Illinois','IL-947-85',251384,325146785,'askr@email.com',1);
+(110,'Frea Technology','8 East Newcastle Lane','Canyon Country','California','CA-344-98',143287,132541286,'freatechnology@email.com',2),
+(111,'Balder Co.','5 Westport St.','District Heights','Maryland','MA-321-11',142764,251436286,'balder@email.com',2),
+(112,'Sigurd Cable','1 Riverview Ave.','Caldwell','New York','NY-417-21',521467,864137518,'sigurdcable@email.com',2),
+(113,'Drusilla Co.','688 Sheffield Ave.','Champaign','Illinois','IL-745-01',315246,685412579,'drusilla@email.com',2),
+(114,'Baldr Hardware','389 Buttonwood Drive','East Elmhurst','New York','NY-746-05',521368,152369478,'baldr@email.com',2);
