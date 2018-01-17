@@ -63,6 +63,20 @@ VALUES
 (1038,'Kathleen','K.','King','seller',2900,'2009-02-21','9614 Bear Hill St.','Wasilla','Alaska','1986-05-16','F',681435791,'kathleenking@email.com',1030,3),
 (1039,'Christine','J.','Martin','seller',2900,'2009-02-21','98 Tanglewood Rd.','Sulphur','Los Angeles','1986-07-17','F',614578926,'christinemartin@email.com',1030,3);
 
+INSERT INTO 
+`employees`(`employee_id`, `first_name`, `midle_name`, `last_name`, `position`, `salary`, `start_date`, `address`, `city`, `state`, `birthday`, `sex`, `phone`, `email`, `supervisor_id`, `office_id`)
+VALUES 
+(1040,'Rachele',null,'Laguerre', 'manager', 4400, '2009-02-21','78 Littleton Ave.','Yuma','Arizona', '1975-01-06', 'F',458165813, 'rachelelaguerre@email.com', 1001, 4),
+(1041,'Xenia','Li','Mei','HR',4000,'2009-02-21','402 N. Poor House Lane','Alpharetta','Georgia','1977-07-26','F',658132548,'xeniamei@email.com',1008,4),
+(1042,'Otilia','K.','Ives','CPA',3800,'2009-02-21','7827 Carriage Street','Fort Lee','New Jersey','1978-01-13','F',951365025,'otiliaives@email.com',1009,4),
+(1043,'Wilson',null,'Tune','secretary',3500,'2009-02-21','221 W. Tanglewood Ave.','Centereach','New York','1980-09-20','M',851325648,'wilsontune@email.com',1040,4),
+(1044,'Clay','D.','Gapinski','seller',3200,'2009-02-21','36 Bay Street','Faribault','Minnesota','1981-04-20','M',842365169,'claygapinski@email.com',1040, 4),
+(1045,'Suzie',null,'Vrooman','seller',3200,'2009-02-21','10 Green Lake Street','West Bloomfield','Marshall Islands','1981-05-19','F',998563214,'suzievrooman@email.com',1040,4),
+(1046,'Bradly',null,'Acklin','seller',3100,'2009-02-21','9515 North 1st St.','Gurnee','Illinois','1984-03-30','M',201365207,'bradlyacklin@email.com',1040,4),
+(1047,'Francene',null,'Melugin','seller',3100,'2009-02-21','65 N. Stonybrook St.','Mcallen','Texas','1984-03-30','F',143287506,'francenemelugin@email.com',1040,4),
+(1048,'Krystin','K.','Caballero','seller',3000,'2009-02-21','213 East Oak Valley Street','La Porte','Indiana','1987-08-30','F',745136289,'krystincaballero@email.com',1040,4),
+(1049,'Shawnta',null,'Beall','seller',2900,'2009-02-21','11 NE. Talbot St.','Columbia','Maryland','1988-03-09','F',451286325,'shawntabeall@email.com',1040,4);
+
 *****************OFFICES************************
 
 INSERT INTO 
