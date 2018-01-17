@@ -126,3 +126,17 @@ VALUES
 (112,'Sigurd Cable','1 Riverview Ave.','Caldwell','New York','NY-417-21',521467,864137518,'sigurdcable@email.com',2),
 (113,'Drusilla Co.','688 Sheffield Ave.','Champaign','Illinois','IL-745-01',315246,685412579,'drusilla@email.com',2),
 (114,'Baldr Hardware','389 Buttonwood Drive','East Elmhurst','New York','NY-746-05',521368,152369478,'baldr@email.com',2);
+
+INSERT INTO 
+`clients`(`client_id`, `client_name`, `client_address`, `client_city`, `client_state`, `vat_number`, `registration_number`, `phone`, `email`, `office_id`) 
+VALUES 
+(115,'Mystic Technology','42 E. Homestead St.','Concord','New Hampshire','NH-845-68',412568,845136579,'mystictechnology@email.com',3),
+(116,'Omega Limited','9645 NE. Lake St.','Amarillo','Texas','TX-584-68',846259,954126589,'omegalimited@email.com',3),
+(117,'Neptunetworks Cable','685 Studebaker Street','Morristown','California','CA-548-78',775456,3655984,'neptunetworkscable@email.com',3),
+(118,'Driftonics Co.','276 Main St.','Summerville','New Jersey','NJ-668-95',586685,215435895,'driftonics@email.com',3),
+(119,'Beemedia Co.','9941 Philmont Street','Monroe Township','North Carolina','NC-998-99',215378,325146785,'beemedia@email.com',3),
+(120,'Infoseek Technology','29 Woodland Lane','Mechanicsville','California','CA-988-14',775416,554123698,'infoseektechnology@email.com',4),
+(121,'Rivershade Co.','71 Wagon Street','Rolling Meadows','Illinois','IL-477-68',220235,695993625,'rivershade@email.com',4),
+(122,'Marblewood Cable','74 Glen Eagles Drive','Wakefield','Massachusetts','MA-445-36',759965,845811549,'marblewoodcable@email.com',4),
+(123,'Vortexecurity Co.','741 Arrowhead Dr.','Middle Village','New York ','NY-115-01',523669,958499526,'vortexecurity@email.com',4),
+(124,'Herbtronics Hardware','601 Shadow Brook St.','Little Rock','Arizona','AR-845-09',100456,845158965,'herbtronicshardware@email.com',4);
