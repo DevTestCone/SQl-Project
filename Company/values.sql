@@ -77,6 +77,20 @@ VALUES
 (1048,'Krystin','K.','Caballero','seller',3000,'2009-02-21','213 East Oak Valley Street','La Porte','Indiana','1987-08-30','F',745136289,'krystincaballero@email.com',1040,4),
 (1049,'Shawnta',null,'Beall','seller',2900,'2009-02-21','11 NE. Talbot St.','Columbia','Maryland','1988-03-09','F',451286325,'shawntabeall@email.com',1040,4);
 
+INSERT INTO 
+`employees`(`employee_id`, `first_name`, `midle_name`, `last_name`, `position`, `salary`, `start_date`, `address`, `city`, `state`, `birthday`, `sex`, `phone`, `email`, `supervisor_id`, `office_id`) 
+VALUES 
+(1050,'Merlyn',null,'Seamans', 'manager', 4200, '2009-9-01','511 Henry Smith St.','Prussia','Pennsylvania', '1972-12-19', 'F',842561973, 'merlynseamans@email.com', 1001, 5),
+(1051,'Fletcher','Ted','Conde','HR',4000,'2009-9-01','7866 Armstrong Drive','North Kingstown','Rhode Island','1987-12-09','M',846258915,'fletcherconde@email.com',1008,5),
+(1052,'Tarah','F.','Fleitas','CPA',3500,'2009-9-01','921 South Lafayette Ave.','Zionsville','Indiana','1984-08-10','M',784136528,'tarahfleitas@email.com',1009,5),
+(1053,'Eleni',null,'Lowenstein','secretary',3300,'2009-9-01','63 S. Manor St.','Woodbridge','Virginia','1975-02-05','F',325651489,'elenilowenstein@email.com',1050,5),
+(1054,'Alexander',null,'Sloane','seller',3200,'2009-9-01','931 Rockland Street','Manchester Township','New Jersey','1986-09-17','M',846025189,'alexandersloane@email.com',1050, 5),
+(1055,'Magen','J.','Samford','seller',3000,'2009-9-01','555 Santa Clara St.','Wallingford','Connecticut','1970-04-22','F',512467895,'magensamford@email.com',1050,5),
+(1056,'Kory','J.','Cheatwood','seller',3000,'2009-9-01','72 Southampton Rd.','Oklahoma City','Oklahoma','1986-01-26','M',462591867,'korycheatwood@email.com',1050,5),
+(1057,'Drucilla',null,'Marquardt','seller',3000,'2009-9-01','8292 North Hamilton Road','Elizabethtown','Pennsylvania','1987-10-07','F',321569582,'drucillamarquardt@email.com',1050,5),
+(1058,'Jeffery',null,'Ballerini','seller',3000,'2009-9-01','7879 Victoria St.','Leesburg','Virginia','1988-06-10','M',201253059,'jefferyballerini@email.com',1050,5),
+(1059,'Sade','de','Bucholz','seller',3000,'2009-9-01','167 Beach Ave.','Delray Beach','Florida','1988-06-10','F',843025942,'sadebucholz@email.com',1050,5);
+
 *****************OFFICES************************
 
 INSERT INTO 
@@ -84,9 +98,9 @@ INSERT INTO
  VALUES 
 (1,'Company Office One','8677 Lantern St.','Lafayette','Indiana','IN-4581-22',952546,251546944,800500500,'officeone@email.com',1010,'2005-11-21'),
 (2,'Company Office Two','40 Bradford Ave.','Loxahatchee','Florida','FL-4351-12',996548,346785214,800400400,'officetwo@email.com',1020,'2007-02-21'),
-(3,'Company Office Three','7058 Charles Street','Reynoldsburg','Ohio','OH-3579-12',914826,159848632,800300300,'officethree@email.com',null,'2008-12-21'),
-(4,'Company Office Four','87 Lexington Drive','Port Charlotte','Florida','FL-4911-42',361844,173981627,800200200,'officefour@email.com',null,'2009-02-21'),
-(5,'Company Office Five','905 Purple Finch Dr.','Pittsford','New York','NY-9873-33',554379,174835219,800100100,'officefive@email.com',null,'2009-9-01');
+(3,'Company Office Three','7058 Charles Street','Reynoldsburg','Ohio','OH-3579-12',914826,159848632,800300300,'officethree@email.com',1030,'2008-12-21'),
+(4,'Company Office Four','87 Lexington Drive','Port Charlotte','Florida','FL-4911-42',361844,173981627,800200200,'officefour@email.com',1040,'2009-02-21'),
+(5,'Company Office Five','905 Purple Finch Dr.','Pittsford','New York','NY-9873-33',554379,174835219,800100100,'officefive@email.com',1050,'2009-9-01');
 
 *****************CLIENTS*******************************
 
