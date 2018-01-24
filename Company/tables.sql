@@ -20,6 +20,7 @@ PRIMARY KEY(employee_id)
 
 // AUTO_INCREMENT = 1000;
 
+
 OFFICES
 
 office_id INT NOT NULL AUTO_INCREMENT, 
@@ -65,8 +66,10 @@ unit ENUM('each','box','pallets') NOT NULL,
 amount INT(30) NOT NULL,
 price INT(30) NOT NULL,
 office_id INT NULL,
+supplier_id INT,
 PRIMARY KEY(supplies_id),
 FOREIGN KEY(office_id) REFERENCES offices(office_id) ON DELETE SET NULL
+FOREIGN KEY(supplier_id) REFERENCES offices(supplier_id)  ON DELETE CASCADE
 
 // AUTO_INCREMENT = 11000;
 
@@ -79,10 +82,12 @@ currency VARCHAR(20) NOT NULL DEFAULT 'euro',
 method_of_payment ENUM('exchanging','provisioning') NOT NULL,
 employee_id INT, 
 client_id INT,
+supplies_id INT,
 PRIMARY KEY(sale_number_id,employee_id,client_id),
 FOREIGN KEY(employee_id) REFERENCES
 employees(employee_id) ON DELETE CASCADE, 
 FOREIGN KEY(client_id) REFERENCES clients(client_id) ON DELETE CASCADE
+FOREIGN KEY (supplies_id) REFERENCES warehouse(supplies_id)
 
 // AUTO_INCREMENT = 10100;
 
